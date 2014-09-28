@@ -10,6 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "continue-stream": "^1.0.2",
+    "request": "^2.44.0",
     "retry-me": "^1.0.0",
     "xtend": "^4.0.0"
   },
