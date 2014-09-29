@@ -1,6 +1,9 @@
 {
   "name": "pagination-stream",
   "version": "1.0.0",
+  "bin": {
+    "pagination-stream": "cli.js"
+  },
   "description": "Combine paginated requests in to a single stream",
   "main": "index.js",
   "scripts": {
@@ -10,6 +13,8 @@
   "license": "MIT",
   "dependencies": {
     "continue-stream": "^1.0.2",
+    "lodash.pick": "^2.4.1",
+    "minimist": "^1.1.0",
     "request": "^2.44.0",
     "retry-me": "^1.0.0",
     "xtend": "^4.0.0"
