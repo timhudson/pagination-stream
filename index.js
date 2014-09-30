@@ -47,9 +47,7 @@ module.exports = function(opts) {
     if (currentPage > options.end) return callback()
 
     retryMe(getStream, retryOptions, function(err, s) {
-      if (err) return stream.emit('error', err)
-      callback(s)
-
+      callback(err, s)
       currentPage++
     })
   })
